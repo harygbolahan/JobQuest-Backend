@@ -1,12 +1,12 @@
 {
-  "name": "sqicommerce",
+  "name": "JobQuest",
   "version": "1.0.0",
   "description": "A very robust e-commerce application for SQI April Cohort (Node.js)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server",
-    "prod": "cross-env NODE_ENV=production nodemon server.js"
+    "prod": "cross-env NODE_ENV=production node server.js"
   },
   "keywords": [
     "Node.js",
